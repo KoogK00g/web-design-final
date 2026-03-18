@@ -135,6 +135,7 @@ nav a {
     max-width: 700px;
     width: auto;
     height: auto;
+    border-radius: 30px;
 }
 /* MAIN */
 main img {
@@ -267,9 +268,20 @@ a:hover {
     border-radius: 30px;
     height: 60%;
     width: 60%;
+    padding-bottom: 30px;
 }
 
 blockquote {
     font-weight: bold;
     padding: 10px;
 }
+.visit {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    padding-bottom: 60px;
+}
+    .visit li {
+        margin-left: auto;
+        margin-right: auto;
+    }
